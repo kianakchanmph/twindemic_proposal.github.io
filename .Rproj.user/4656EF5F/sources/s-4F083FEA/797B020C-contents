@@ -1,0 +1,75 @@
+---
+title: "Project Proposal"
+output: html_document
+---
+
+# Title: Twindemic: Examining the relationship between COVID-19 and Influenza in NYC
+
+### Names: Teshawna Badu (tb2910), Kiana Chan (kkc2146), Judy Fordjuoh (jf3354), Rachelle Juan (raj2152), Kelvin Tamakloe (kdt2119)
+
+## Motivation:
+This winter will be the first real flu season we have had since the beginning of the COVID-19 pandemic. Many experts are concerned that lower immunity to flu, decreased social distancing and mask wearing, and return to school and work will cause a “twindemic” where there is a simultaneous outbreak of flu and COVID-19. This leads us to ask the following questions
+* Option: What is the relationship between COVID and Flu Vaccination Uptake by Zipcode and Sociodemographic Factors in NYC?
+* Option:  What is the difference in COVID and Flu vaccine uptake in NYC, according to  associated sociodemographic factors?
+* Option: What are the patterns observed for COVID and Flu vaccine uptake in New York by zip code?
+* Option: Difference in COVID and Flu vaccine uptake in NYC and associated sociodemographic factors.
+
+## Intended Final Products: 
+
+
+Data Sources: 
+New York City Locations Providing Seasonal Flu Vaccine https://data.cityofnewyork.us/Health/New-York-City-Locations-Providing-Seasonal-Flu-Vac/w9ei-idxz
+
+Emergency Department Visits and Admissions for Influenza-like Illness and/or Pneumonia
+https://data.cityofnewyork.us/Health/Emergency-Department-Visits-and-Admissions-for-Inf/2nwg-uqyg
+
+American Community Survey (Census data for social demographic information) 
+https://data.census.gov/cedsci/table?g=8600000US10452&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2019.DP02&hidePreview=true
+
+NYC COVID vaccine data
+https://www1.nyc.gov/site/doh/covid/covid-19-data-vaccines.page
+
+DOHMH COVID Antibody by Borough
+https://data.cityofnewyork.us/Health/DOHMH-COVID-19-Antibody-by-Borough/x98t-3bbk 
+DOHMH COVID Antibody by Age
+https://data.cityofnewyork.us/Health/DOHMH-COVID-Antibody-by-Age/7umd-hdjb 
+DOHMH COVID Antibody by Neighbourhood Poverty
+https://data.cityofnewyork.us/Health/DOHMH-COVID-19-Antibody-by-Neighborhood-Poverty/vajk-p37e 
+
+## Planned Analysis, Visualizations, Coding Challenges: 
+
+
+## Planned Analysis: 
+* analysis of demographic variables (race, education, SES, age) on COVID and flu vaccination uptake, regression analysis (regress flu vaccine on COVID vaccine — predict chance of getting flu vaccine if they got COVID vaccines; regress flu ED visits on COVID and flu vaccine), 
+
+## Visualizations: 
+* map of flu vaccine locations, spatial heatmap of ED visits/admissions for flu and covid, vaccine rates by different demographic groups (bar chart), line graph of flu admissions by month of year (we predict to see seasonality)
+
+## Coding challenges: 
+* understanding collaboration in Github, running statistical analyses in R (we’re more experienced using SAS/STATA)
+
+
+# Timeline
+
+## November 13
+* Finish drafting ideas for planned analysis 
+* Upload in Git hub 
+* Share github repo on courseworks 
+
+## November 16-19 
+* Zoom meeting for TA 
+* Plan a date (when2meet) 
+* Select final datasets
+* finalize research questions
+* scrape data from web
+* clean, tidy data
+* merge datasets
+* exploratory analysis and maps
+* basic statistical analysis (sample sizes, means, proportions, rates)
+* make maps!
+* other visualizations
+* regression analysis?
+* write discussion 
+
+
+# December 11: Report Due
